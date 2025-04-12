@@ -5,8 +5,8 @@ import cv2
 #cap = cv2.VideoCapture(0)
 
 # Try the web-hosed ESP32-Cam
-URL = "http://192.168.1.56"
-cap = cv2.VideoCapture(URL + ":81/stream")ch
+URL = "http://192.168.137.238"
+cap = cv2.VideoCapture(URL + ":81/stream")
 
 if not cap.isOpened():
     print("Error: Could not open video stream.")
